@@ -1,8 +1,26 @@
 aid: block-renovation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/block-renovation.png
 name: Block Renovation
-description: Block Renovation is a company surfaced as a portfolio company of obvious-ventures, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Block Renovation is a home renovation and construction platform that connects homeowners with vetted,
+  local contractors and provides free design, cost-estimation, and project-planning tools for kitchen and
+  bathroom remodels, home additions, basement renovations, ADUs, new construction, and commercial projects.
+  It operates across all 50 US states and layers on a protection program covering price assurance,
+  progress-based payments, a workmanship warranty, and dedicated Project Planner support. Backed by Obvious
+  Ventures and the SoftBank Vision Fund, it was added to the API Evangelist network as a company profile;
+  as of this enrichment pass Block Renovation publishes a consumer-facing marketplace but no public
+  developer API, documentation, or machine-readable specification.
 url: https://raw.githubusercontent.com/api-evangelist/block-renovation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Home Renovation
+- Construction
+- Home Improvement
+- Contractor Marketplace
+- Real Estate
+- Proptech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/block-renovation-domain-security.yml
 - type: Website
-  url: https://blockrenovation.com
+  url: https://www.blockrenovation.com
+- type: Blog
+  url: https://www.blockrenovation.com/guides
+- type: SignUp
+  url: https://www.blockrenovation.com/planner/
+- type: Support
+  url: https://www.blockrenovation.com/faq
+- type: TermsOfService
+  url: https://www.blockrenovation.com/terms
+- type: PrivacyPolicy
+  url: https://www.blockrenovation.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
