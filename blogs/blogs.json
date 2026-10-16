@@ -2,6 +2,20 @@
   "repo": "block-renovation",
   "feeds": [
     {
+      "source": "https://www.blockrenovation.com/guides/rss.xml",
+      "feed_url": "https://www.blockrenovation.com/guides/rss.xml",
+      "title": "",
+      "saved": 9,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.blockrenovation.com/guides",
+      "feed_url": "https://www.blockrenovation.com/guides/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://www.blockrenovation.com",
       "feed_url": "https://www.blockrenovation.com",
       "title": "",
@@ -9,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 9,
+  "fetched": "2026-10-10T13:15:00Z"
 }
